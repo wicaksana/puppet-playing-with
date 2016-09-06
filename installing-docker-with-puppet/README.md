@@ -9,6 +9,7 @@ Develop container application (Docker) on a Centos 7 box using Vagrant and Puppe
 - Write `puppetfile`. It contains several modules: `puppetlabs/stdlib`, `puppetlabs/apt`, `stahnma/epel`, and `garethr/docker`
 - Run `vagrant up`
 - To confirm whether Docker is indeed installed, do `vagrant ssh`, then `sudo -i`, and followed by running `docker` command.
+
 ## Stacks
 
 - Puppet 
