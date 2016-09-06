@@ -11,9 +11,9 @@ Develop container application (Docker) on a Centos 7 box using Vagrant and Puppe
 - To confirm whether Docker is indeed installed, do `vagrant ssh`, then `sudo -i`, and followed by running `docker` command.
 ## Stacks
 
-- Puppet Forge
+- Puppet 
 - Vagrant
 - Docker
 
 ## References
-[https://www.packtpub.com/mapt/book/Networking%20and%20Servers/9781785883286](Puppet for Containerization (Ch01))
+[Puppet for Containerization (Ch01))](https://www.packtpub.com/mapt/book/Networking%20and%20Servers/9781785883286)
