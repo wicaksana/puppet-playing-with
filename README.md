@@ -3,6 +3,7 @@
 ##Introduction
 Collections of my study materials about Puppet
 
-##Contents
+## Contents
 
-1. [Installing Docker with Puppet](installing-docker-with-puppet/)
+- [puppet-containerization/](Containerization using Puppet) - based on the book [https://www.packtpub.com/networking-and-servers/puppet-containerization](Puppet for Containerization)
+
