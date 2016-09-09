@@ -1,16 +1,16 @@
 class consul::install {
-    package {
-        'device-mapper-libs': ensure => installed,
+    package { 'device-mapper-libs':
+        ensure => installed,
     }
 
-    class { 'docker': 
+    class { 'docker':
         version     => $consul::docker_version,
         tcp_bind    => $consul::docker_tcp_bind,
         socket_bind => 'unix:///var/run/docker.sock',
         require     => Package['device-mapper-libs']
-    } -> 
+    } ->
     
-    docker::image {$consul::docker_image : } -> 
+    docker::image { $consul::docker_image : } ->
 
     docker::run { $consul::container_hostname:
         image       => $consul::docker_image,
